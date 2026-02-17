@@ -29,10 +29,10 @@ public class Conditionals {
 
         //You're given 3 numbers , find the largest number:
 
-        int a = 14;
-        int b = 8;
-        int c = 16;
-        int max = 0;
+//        int a = 14;
+//        int b = 8;
+//        int c = 16;
+//        int max = 0;
 //
 //        if(a>b) {
 //            System.out.println("A is bigger than B");
@@ -59,8 +59,8 @@ public class Conditionals {
 
 //        nested ternary:
 
-        max = a>b?a>c?a:c:b>c?b : c;
-        System.out.println(max);
+//        max = a>b?a>c?a:c:b>c?b : c;
+//        System.out.println(max);
 
 
 //        int a = 12;
@@ -79,5 +79,23 @@ public class Conditionals {
 
 //        max = (a>b)? a:b;
 //        System.out.println(max);
+
+        //use of logical operators :
+
+//        int time = 12;
+//        if(time>=8 && time<=20){
+//            System.out.println("Office is open.");
+//        }else{
+//            System.out.println("Office is closed.");
+//        }
+
+//        if (time==12 || time == 18){
+//            System.out.println("Food Time");}
+//        else{
+//                System.out.println("Work-time");
+//            }
+
+
+
     }
 }
