@@ -1,5 +1,3 @@
-// Basics of Arrays
-
 package arrays;
 
 public class BasicsOfArray {
@@ -30,14 +28,21 @@ public class BasicsOfArray {
 //        System.out.println(marks[1]);]
 
 
-                // ittreration through an array by for loop: 
+                // ittreration through an array by for loop:
 
         String names[] =  {"aman","am","an","matadeen"};
+//
+//        for (int i = 0; i < names.length; i++) {
+//            System.out.println(i);
+//            System.out.println(names[i]);
+//
+//        }
 
-        for (int i = 0; i < names.length; i++) {
-            System.out.println(i);
-            System.out.println(names[i]);
+        // for each loop use for itteration into arrays:
 
+        for(String name : names){
+            System.out.println(name);
+//            System.out.println(names); // gives location address of array stored
         }
 
 
